@@ -190,8 +190,9 @@ fn mixed(seed: u64, n: usize) -> Vec<u8> {
 fn case(name: &str) -> Vec<u8> {
     match name {
         "stored-1" => random_bytes(1, 1),
-        "text-17" => text(2, 17),
-        "text-18" => text(3, 18),
+        "repeat-17" => repeat(b"ab", 17),
+        "repeat-18" => repeat(b"ab", 18),
+        "calls-40" => repeat(b"\x90\xe8\x10\x00\x00\x00", 40),
         "text-100" => text(4, 100),
         "text-65536" => text(5, 65536),
         "text-131071" => text(6, 131_071),

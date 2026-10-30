@@ -152,8 +152,9 @@ def mixed(seed, n):
 def cases():
     return {
         "stored-1": ("raw", random_bytes(1, 1), {}),
-        "text-17": ("raw", text(2, 17), {}),
-        "text-18": ("raw", text(3, 18), {}),
+        "repeat-17": ("raw", repeat(b"ab", 17), {}),
+        "repeat-18": ("raw", repeat(b"ab", 18), {}),
+        "calls-40": ("raw", repeat(b"\x90\xe8\x10\x00\x00\x00", 40), {}),
         "text-100": ("raw", text(4, 100), {}),
         "text-65536": ("raw", text(5, 65536), {}),
         "text-131071": ("raw", text(6, 131071), {}),
@@ -244,7 +245,7 @@ def main():
             pass
         else:
             raise AssertionError("cabinet.dll accepted a wrong header check byte")
-    (FIXTURES / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    (FIXTURES / "manifest.json").write_bytes((json.dumps(manifest, indent=2) + "\n").encode())
 
 
 if __name__ == "__main__":

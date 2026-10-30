@@ -5,17 +5,23 @@
     "input_sha256": "d1bbd73bb09190bfb883056771e22e997541ed20079793bf33975fe1654581c3",
     "compressed_bytes": 1
   },
-  "text-17": {
+  "repeat-17": {
     "kind": "raw",
     "size": 17,
-    "input_sha256": "5d15d1119377c916caded3b356a56bb847dea53c757c4c9812f767536c7220fe",
-    "compressed_bytes": 17
+    "input_sha256": "5fba7f54fde3463b3ce55f03ed6832f8d71857c696595a09f312eec3470b2200",
+    "compressed_bytes": 10
   },
-  "text-18": {
+  "repeat-18": {
     "kind": "raw",
     "size": 18,
-    "input_sha256": "d918e203c4cf2626ccc0ae2ff1490019e2a3c5149f3c63a5bf87c54acbcbac70",
-    "compressed_bytes": 18
+    "input_sha256": "e58ebb1c77105df7c5fe20b7f701ed3f4f858be641345f30b06c2822f3523ded",
+    "compressed_bytes": 10
+  },
+  "calls-40": {
+    "kind": "raw",
+    "size": 40,
+    "input_sha256": "a786ae1580fcd46e52450cfc817a414d73540085c0240d63d3774c70abb9de9d",
+    "compressed_bytes": 14
   },
   "text-100": {
     "kind": "raw",
