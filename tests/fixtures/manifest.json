@@ -1,0 +1,140 @@
+{
+  "stored-1": {
+    "kind": "raw",
+    "size": 1,
+    "input_sha256": "d1bbd73bb09190bfb883056771e22e997541ed20079793bf33975fe1654581c3",
+    "compressed_bytes": 1
+  },
+  "text-17": {
+    "kind": "raw",
+    "size": 17,
+    "input_sha256": "5d15d1119377c916caded3b356a56bb847dea53c757c4c9812f767536c7220fe",
+    "compressed_bytes": 17
+  },
+  "text-18": {
+    "kind": "raw",
+    "size": 18,
+    "input_sha256": "d918e203c4cf2626ccc0ae2ff1490019e2a3c5149f3c63a5bf87c54acbcbac70",
+    "compressed_bytes": 18
+  },
+  "text-100": {
+    "kind": "raw",
+    "size": 100,
+    "input_sha256": "2e25fba070e3d59bbf7bc7d82697858eae0e235606c86195f6af13f605b57c63",
+    "compressed_bytes": 84
+  },
+  "text-65536": {
+    "kind": "raw",
+    "size": 65536,
+    "input_sha256": "3661714e08d0d50322aa436bcf404d00550a243d337dcb21752dbcfc01fcc0f9",
+    "compressed_bytes": 10228
+  },
+  "text-131071": {
+    "kind": "raw",
+    "size": 131071,
+    "input_sha256": "bbfe3efbc3c33a005bfa8958f897c73a60ec39b15708aa1623d7695ebc9c9dd1",
+    "compressed_bytes": 19220
+  },
+  "text-131072": {
+    "kind": "raw",
+    "size": 131072,
+    "input_sha256": "6e1dc03cbbfb7ced1882653b29024eb9f4a2089f3de813956d1842233e820880",
+    "compressed_bytes": 19258
+  },
+  "text-131073": {
+    "kind": "raw",
+    "size": 131073,
+    "input_sha256": "9f034712de294679b6ef50dc1f66e8f0318927db6347c9810c7fb7affb1decff",
+    "compressed_bytes": 19208
+  },
+  "random-4096": {
+    "kind": "raw",
+    "size": 4096,
+    "input_sha256": "53b0aaac50361cf81a0b615cc49104e044212bc642da42f7d1b00912342d6886",
+    "compressed_bytes": 4096
+  },
+  "random-text-200000": {
+    "kind": "raw",
+    "size": 200000,
+    "input_sha256": "9eb002d5bdb32f654736cce3d314170de610e3a89c4b8adb523a58fc4b22f5cc",
+    "compressed_bytes": 115876
+  },
+  "zeros-1048576": {
+    "kind": "raw",
+    "size": 1048576,
+    "input_sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+    "compressed_bytes": 12
+  },
+  "repeat-300000": {
+    "kind": "raw",
+    "size": 300000,
+    "input_sha256": "1a43ed094ff0d4f207428d8fb7bcccc263b41798ffcd48fca2bc376209ed0a86",
+    "compressed_bytes": 16
+  },
+  "x86-262144": {
+    "kind": "raw",
+    "size": 262144,
+    "input_sha256": "669acc197e65aa89c1735918551e9ffa6b2982f8fffbfd78d479460bbc14534b",
+    "compressed_bytes": 99634
+  },
+  "image-262144": {
+    "kind": "raw",
+    "size": 262144,
+    "input_sha256": "20f3786de663c34c310181e69d63be83fb3479d66af323161db8d672b93dd8e2",
+    "compressed_bytes": 133082
+  },
+  "samples-200000": {
+    "kind": "raw",
+    "size": 200000,
+    "input_sha256": "d6971ec4e7a138ed8da9adf6c2a2c31b3ea88fc654953df919cd23530d3d6713",
+    "compressed_bytes": 35050
+  },
+  "mixed-2097152": {
+    "kind": "raw",
+    "size": 2097152,
+    "input_sha256": "e473eb42d6937b3484b7905951f065c795b18e4dcdde068fd73e98c346ed335c",
+    "compressed_bytes": 706262
+  },
+  "far-8388608": {
+    "kind": "raw",
+    "size": 8388608,
+    "input_sha256": "a07954b43e28e2f110933cf0e70752afdebedbd70f3144ebe0ef5e3c0234aa06",
+    "compressed_bytes": 66360
+  },
+  "far-67108864": {
+    "kind": "raw",
+    "size": 67108864,
+    "input_sha256": "2533c7665c5f565f5e5a1182ecd17309602a4c145d638dd8dc20309d3aabc702",
+    "compressed_bytes": 66544
+  },
+  "buffer-text-300000": {
+    "kind": "buffer",
+    "size": 300000,
+    "input_sha256": "3545638c1bdc413f4e2e684f02c78461e0b5a2ac358b57478b6843532257b974",
+    "compressed_bytes": 47186
+  },
+  "buffer-random-100000": {
+    "kind": "buffer",
+    "size": 100000,
+    "input_sha256": "dc555f780b119c799f856f0727f5fd465ce5255695f9560ca67df4b01f7e9b4a",
+    "compressed_bytes": 100032
+  },
+  "buffer-mixed-3145728": {
+    "kind": "buffer",
+    "size": 3145728,
+    "input_sha256": "458e9748ca5dd4ab28c3109013153c53131a3e14594be9ccffa8365e6da0dc9f",
+    "compressed_bytes": 1068930
+  },
+  "buffer-text-2400": {
+    "kind": "buffer",
+    "size": 2400,
+    "input_sha256": "43056079ddf455cf09fcf6c00800a7c963873e89d19ed7c79d114a486d4fad34",
+    "compressed_bytes": 686
+  },
+  "buffer-variable": {
+    "kind": "variable",
+    "size": 165537,
+    "input_sha256": "9dfe3f1c8d07287496d0755515e8520609c8626fb9bac3ad34eb27ae919a8b83",
+    "compressed_bytes": 49667
+  }
+}
